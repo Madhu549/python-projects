@@ -26,7 +26,7 @@ git add . ---> this will add all the files to the stage that are ready for commi
 git revert -n HEAD ---> used to revert the changes from the last commit
 
 
-#git branching
+#git branching 
 git branch ---> it will give you the branch on which you are currently pointed in.
 git branch brach_name ---> used to create a new branch with the name of the branch given.
 git checkout branch_name ---> used to move to different branches.
