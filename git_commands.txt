@@ -1,0 +1,45 @@
+#commands to navigate and create files and folders
+pwd ---> print working directory
+ls ---> short listing
+cd ---> change directory
+ls -l  --->long listing will describe the complete information.
+cd .. ---> will move you one step before
+cd ~ ---> will move you to the home directory
+cd \ ---> will move you to the root
+mkdir ---> used for creating folders
+touch ---> used to create files.
+ls -a ---> to view the hidden files
+ 
+
+#git staging and commits
+git init ---> used to Initialize the git
+git status ---> used to know the corrent status of the git
+git add ---> used to add the files or data to the staging area.
+git commit ---> used to commit the changes
+git commit -m "Commit comments" --->used to commit by providing some message for the the commit
+git log ---> used to view the info of latest commits
+git revert -n first_7_characters_from_hash_value ---> used to revert the changes from that commit of hash value.
+git reset -n first_7_characters_from_hash_value --hard ---> used to reset the last commit.
+git revert HEAD ---> used to revert the latest commit.
+git reset HEAD~1 --hard  ---> this will reset by one commit.
+git add . ---> this will add all the files to the stage that are ready for commit.
+git revert -n HEAD ---> used to revert the changes from the last commit
+
+
+#git branching
+git branch ---> it will give you the branch on which you are currently pointed in.
+git branch brach_name ---> used to create a new branch with the name of the branch given.
+git checkout branch_name ---> used to move to different branches.
+git checkout -b branch_name ---> used to create a new branch with the given branch name and move to the branch that we have created.
+
+    
+#git merging 
+git merge branch_name ---> it will merge the changes from branch_name give to the master.
+git branch -d branch_name ---> it will delete the branch.
+git diff file_name ---> it will give you the changes done to the file.
+
+
+#git push
+git remote add origin url for accessing the remote ---> will push the code from the local master branch to remote.
+git push --all origin  ---> will push the code from the local master branch to remote.
+git push -u origin master ---> it will automatically pushes the whatever changes you have commited to the master.
