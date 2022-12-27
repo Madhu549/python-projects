@@ -47,3 +47,19 @@ git push -u origin master ---> it will automatically pushes the whatever changes
 
 #git pull
 git pull origin master ---> used to upadate our local code according to the origin or remote code
+
+
+#git ignore
+git ignore File_name ---> used to ignore a perticular file from commiting
+
+
+#git stash
+git stash ---> used when the user wants to save the changes without commiting those changes usually done when local changes are one level up than remote and you don't wanna pull from remote.
+
+
+#git rebase
+git rebase ---> used to change the master as your base if someone had already commited 
+
+
+#git Squash
+git squash ---> used to combine the commits together as a singlr commit inorder to avoid confusion.
