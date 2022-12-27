@@ -1,0 +1,16 @@
+---
+#Connection credentials:
+ansible_user: etaskdev
+ansible_ssh_private_key_file: /home/edgedevops/.ssh/ansible
+ansible_python_interpreter: /usr/bin/python
+mount_path: /opt/SP/edgetask/
+profile_path: /opt/SP/edgetask/wm/profiles
+zone_name: edgetask
+
+Instance_path:
+wm1 : "wm/IntegrationServer/instances/wm1"
+wm2 : "wm/IntegrationServer/instances/wm2"
+
+ACL_path:
+wm1 : "wm/IntegrationServer/instances/wm1/config/aclmap_sm.cnf"
+wm2 : "wm/IntegrationServer/instances/wm2/config/aclmap_sm.cnf"

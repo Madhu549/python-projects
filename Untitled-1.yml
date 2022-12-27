@@ -1,0 +1,11 @@
+---
+- name: sample playbook
+- hosts: localhost
+
+- tasks: 
+  - name: running shell command
+    shell: 
+      cmd: ls -l
+    register: output 
+  - debug: 
+      var: output

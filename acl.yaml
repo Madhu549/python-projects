@@ -1,0 +1,29 @@
+---
+- name: archive the file and fetch from remote server
+  hosts: "{{server}}"
+  gather_facts: no
+  vars:
+    pkg_path: "{{mount_path}}{{Instance_path[instance]}}/packages"
+    acl_path: "{{mount_path}}{{Instance_path[instance]}}/config/aclmap_sm.cnf"
+    dest_path: "{{mount_path}}{{Instance_path[instance]}}"
+  
+  tasks:
+    - name: Archive the Packages Directory
+      archive:
+        path: "{{pkg_path}}"
+        dest: "{{dest_path}}/{{file_name}}.zip"
+        format: zip         
+    - name: fetch the old archived packages file from old server
+      fetch:
+        src: "{{dest_path}}/{{file_name}}.zip"
+        dest: "{{swd}}/buffer/"
+        flat: yes
+    - name: fetch the old archived acl file from old server
+      fetch:
+        src: "{{acl_path}}"
+        dest: "{{swd}}/buffer/{{acl_file_name}}"
+        flat: yes
+    - name: Remove the Archived file in the remote server
+      file:
+        path: "{{dest_path}}/{{file_name}}.zip"
+        state: absent

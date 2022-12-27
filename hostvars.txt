@@ -1,0 +1,94 @@
+[dev]
+wmdevedgesupplier ansible_host=10.196.220.51
+wmdevb2b ansible_host=10.196.220.51
+wmdevedge ansible_host=10.196.220.51
+wmdevedgeb2b ansible_host=10.196.220.51
+wmdevedgemsg ansible_host=10.196.220.51
+wmdevedgeassure ansible_host=10.196.220.51
+wmdevedgenotification ansible_host=10.196.220.51
+wmdevbpms ansible_host=10.196.220.51
+wmdevedgetask ansible_host=10.196.220.232
+
+[sit3]
+wmsit3edgesupplier ansible_host=10.196.220.58
+wmsit3b2b ansible_host=10.196.220.58
+wmsit3edge ansible_host=10.196.220.57
+wmsit3edgeb2b ansible_host=10.196.220.58
+wmsit3edgemsg ansible_host=10.196.220.57
+wmsit3edgeassure ansible_host=10.196.220.57
+wmsit3edgenotification ansible_host=10.196.220.57
+wmsit3bpms ansible_host=10.196.220.61
+wmsit3mws ansible_host=10.196.220.60
+wmsit3edgetask ansible_host=10.196.220.233
+
+[sit4]
+soxsit4_2 ansible_host=10.196.150.220
+soxsit4_1 ansible_host=10.196.150.192
+wmsit4edgesupplier ansible_host=10.196.212.98
+wmsit4b2b ansible_host=10.196.212.98
+wmsit4edge ansible_host=10.196.212.97
+wmsit4edgeb2b ansible_host=10.196.212.98
+#wmsit4edgemsg ansible_host=10.196.212.97
+wmsit4edgeassure ansible_host=10.196.212.97
+wmsit4edgenotification ansible_host=10.196.212.97
+wmsit4bpms ansible_host=10.196.212.101
+wmsit4mws ansible_host=10.196.212.100
+wmsit4broker9.6 ansible_host=10.196.212.99
+wmsit4broker10.5 ansible_host=10.196.212.99
+wmsit4edgetask ansible_host=10.196.220.234
+
+[cob1]
+soxcob1_1 ansible_host=10.196.150.182
+soxcob1_2 ansible_host=10.196.150.183
+wmcob1edgesuppliersw ansible_host=10.196.217.25
+wmcob1b2bsw ansible_host=10.196.216.128
+wmcob1edgesw ansible_host=10.196.216.127
+wmcob1edgeb2bsw ansible_host=10.196.220.150
+wmcob1edgemsgsw ansible_host=10.196.220.151
+wmcob1edgeassuresw ansible_host=10.196.217.26
+wmcob1edgenotificationsw ansible_host=10.196.220.154
+wmcob1bpmssw ansible_host=10.196.216.130
+wmcob1mwssw ansible_host=10.196.217.25
+wmcob1mediatorsw ansible_host=10.196.216.132 
+wmcob1edgesupplierpr ansible_host=10.196.209.48
+wmcob1b2bpr ansible_host=10.196.208.194
+wmcob1edgepr ansible_host=10.196.208.193
+wmcob1edgeb2bpr ansible_host=10.196.212.205
+wmcob1edgemsgpr ansible_host=10.196.212.206
+wmcob1edgeassurepr ansible_host=10.196.209.49
+wmcob1edgenotificationpr ansible_host=10.196.212.209
+wmcob1bpmspr ansible_host=10.196.208.196
+wmcob1mwspr ansible_host=10.196.209.48
+wmcob1mediatorpr ansible_host=10.196.208.198
+wmcob1dmzsw ansible_host=10.196.216.134
+wmcob1dmzpr ansible_host=10.196.208.200
+wmcob1edgetasksw ansible_host=10.196.220.228
+wmcob1edgetaskpr ansible_host=10.196.212.85
+
+[cob2]
+soxcob2_1 ansible_host=10.196.150.186
+soxcob2_2 ansible_host=10.196.150.187
+wmcob2edgesuppliersw ansible_host=10.196.217.27
+wmcob2b2bsw ansible_host=10.196.216.142
+wmcob2edgesw ansible_host=10.196.216.141
+wmcob2edgeb2bsw ansible_host=10.196.216.142
+wmcob2edgemsgsw ansible_host=10.196.220.152
+wmcob2edgeassuresw ansible_host=10.196.217.28
+wmcob2edgenotificationsw ansible_host=10.196.220.155
+wmcob2bpmssw ansible_host=10.196.220.72
+wmcob2edgetasksw ansible_host=10.196.220.229
+wmcob2mwssw ansible_host=10.196.217.27
+wmcob2edgestubsw ansible_host=10.196.220.178
+wmcob2edgesupplierpr ansible_host=10.196.209.50
+wmcob2b2bpr ansible_host=10.196.208.207
+wmcob2edgepr ansible_host=10.196.208.206
+wmcob2edgeb2bpr ansible_host=10.196.208.207
+wmcob2edgemsgpr ansible_host=10.196.212.207
+wmcob2edgeassurepr ansible_host=10.196.209.51
+wmcob2edgenotificationpr ansible_host=10.196.212.210
+wmcob2bpmspr ansible_host=10.196.212.118
+wmcob2edgetaskpr ansible_host=10.196.212.86
+wmcob2mwspr ansible_host=10.196.209.50
+wmcob2dmzsw ansible_host=10.196.216.136
+wmcob2dmzpr ansible_host=10.196.208.202
+wmcob2edgestubpr ansible_host=10.196.212.237

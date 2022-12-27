@@ -1,0 +1,18 @@
+---
+#Connection credentials:
+ansible_user: wmesud16
+ansible_ssh_private_key_file: /home/edgedevops/.ssh/ansible
+ansible_python_interpreter: /usr/bin/python
+mount_path: /opt/SP/edgesupplier/
+profile_path: /opt/SP/edgesupplier/wm/profiles
+zone_name: edgesupplier
+
+Instance_path:
+wm1 : "wm/IntegrationServer/instances/wm1"
+wm2 : "wm/IntegrationServer/instances/wm2"
+wm3 : "wm/IntegrationServer/instances/wm3"
+
+ACL_path:
+wm1 : "wm/IntegrationServer/instances/wm1/config/aclmap_sm.cnf"
+wm2 : "wm/IntegrationServer/instances/wm2/config/aclmap_sm.cnf"
+wm3 : "wm/IntegrationServer/instances/wm3/config/aclmap_sm.cnf"

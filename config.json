@@ -1,0 +1,53 @@
+"edge": 
+
+    alias: "wmdevedge"
+
+    instances: [wm1, wm2, wm3, wm4, wm5]
+
+"b2b": 
+
+    alias: "wmdevb2b"
+
+    instances: [wm1, wm2, wm3, wm5]
+
+"edgeb2b": 
+
+    alias: "wmdevedgeb2b"
+
+    instances: [wm1, wm2, wm3, wm4]
+
+"edgeassure": 
+
+    alias: "wmdevedgeassure"
+
+    instances: [wm1, wm2, wm3, wm4]
+
+"edgesupplier": 
+
+    alias: "wmdevedgesupplier"
+
+    instances: [wm1, wm2, wm3]
+
+"edgenotification": 
+
+    alias: "wmdevedgenotification"
+
+    instances: [wm1, wm3]
+
+"bpms": 
+
+    alias: "wmdevbpms"
+
+    instances: [wm2, wm3]
+
+"edgemessaging": 
+
+    alias: "wmdevedgemsg"
+
+    instances: [wm1]
+
+"edgetask": 
+
+    alias: "wmdevedgetask"
+
+    instances: [wm1, wm2]

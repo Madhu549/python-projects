@@ -1,0 +1,20 @@
+---
+- name: sample playbook
+  hosts: localhost
+  gather_facts: no
+  
+  vars:
+    acl_path: "/home/madhu/Desktop/Ansible/test"
+    dest_path: "/home/madhu/Desktop/test"
+
+  tasks: 
+  - name: Archive the acl Directory
+    archive:
+    	path: "{{acl_path}}"
+	dest: "{{dest_path}}/madhu.zip"
+	format: zip
+  - name: fetch the old archived acl file from old server
+    fetch:
+    	src: "{{dest_path}}/madhu.zip"
+	dest: "/home/madhu/Desktop/buffer"
+	flat: yes 
