@@ -43,3 +43,7 @@ git diff file_name ---> it will give you the changes done to the file.
 git remote add origin url for accessing the remote ---> will push the code from the local master branch to remote.
 git push --all origin  ---> will push the code from the local master branch to remote.
 git push -u origin master ---> it will automatically pushes the whatever changes you have commited to the master.
+
+
+#git pull
+git pull origin master ---> used to upadate our local code according to the origin or remote code
