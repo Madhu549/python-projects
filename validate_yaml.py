@@ -5,7 +5,7 @@ import sys, os
 #taking system arguments
 file_path = input("please enter path: ")
 
-
+#and printing the traceback
 #Print error messages
 def print_error_and_exit(error_message):
     print(error_message)
