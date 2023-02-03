@@ -1,9 +1,9 @@
 import yaml
 import traceback
-import sys, os
+import sys, os, pprint
 
 #taking system arguments
-file_path = 'master_config.yaml'
+file_path = 'C:\\Users\MADHU\Desktop\python Code\Python_Coding\other_config.yml'
 
 #and printing the traceback
 #Print error messages
@@ -17,7 +17,8 @@ def yaml_loader(path, error_message):
   if os.path.exists(path):
     try:
       with open(path, 'r') as file:
-        yaml.load(file, Loader= yaml.FullLoader)
+        data = yaml.load(file, Loader= yaml.FullLoader)
+        pprint.pprint(data)
         return 'Yaml is in a proper format'
     except:
       traceback.print_exc()

@@ -1,43 +1,209 @@
-otherConfigDB:
-  R2212:
-    '3':
-      edgeconfig:
-        3_INSERT_ENV_PROPERTIES_CONFIG.sql:
-          VfEdgeNotifyCustomerServices.NotifyCustomerWSConfig.restservice.url: 'https://88.82.4.49/IGW'
-    '4':
-      edgeconfig:
-        4_ARCHIVAL_INSERT_ENV_PROPERTIES_CONFIG.sql:
-          comdatalocation: /opt/SP/comdata/wmedgp03
-    '16':
-      edgeconfig:
-        16_INSERT_ENV_PROPERTIES_CONFIG.sql:
-          comdatalocation: /opt/SP/comdata/wmedgp03
-    '17':
-      edgeprocess:
-        17_1_INSERT_EDGE_BULK_CONFIGURATION.sql:
-          MountPoint: /opt/SP
-          EdgeTaskFolderName: wmetaskp21
-    '20':
-      edgeconfig:
-        20_INSERT_ENV_PROP_CONFIG.sql:
-          VfTriggerEdgeBulkOrderServices.config.restservice.timeout: 30000
-          VfTriggerEdgeBulkOrderServices.config.restservice.connectiontimeout: 30000
-          VfTriggerEdgeBulkOrderServices.config.restservice.username: EdgeWMUser
-          VfTriggerEdgeBulkOrderServices.config.restservice.password: Pr0dwMU$3r
-          VfTriggerEdgeBulkOrderServices.config.restservice.url: >-
-            https://wm-edge-b2b-prd.internal.vodafone.co.uk:26254/restv2/EdgeUIManagementServicesV200/UpdateObject
-otherConfigDocSync:
-  R2212:
-    - >-
-      Insert into DEPLOYMENT_DOCSYNC
-      (RELEASE_NAME,DOC_NAME,STATUS,TARGET_SERVER_ALIAS,FAILED_SERVER_ALIAS,ACTION,UPDATED_TIMESTAMP,ENVIRONMENT,ERROR_MESSAGE)
-      values
-      ('R2212','VfOrderFulfillmentCanonical.webMethods:OrderFulfillmentCanonical','NEW','b2b_wm2_sw,b2b_wm2_pr,b2b_wm5_sw,b2b_wm5_pr,edge_wm2_sw,edge_wm2_pr,edge_wm3_sw,edge_wm3_pr,edge_wm4_sw,edge_wm4_pr,edge_wm5_sw,edge_wm5_pr,bpms_wm2_sw,bpms_wm2_pr,edgeb2b_wm1_sw,edgeb2b_wm1_pr,edgeb2b_wm2_sw,edgeb2b_wm2_pr,edgeb2b_wm3_sw,edgeb2b_wm3_pr,edgeb2b_wm4_sw,edgeb2b_wm4_pr,edgesupplier_wm1_sw,edgesupplier_wm1_pr,edgenotification_wm3_sw,edgenotification_wm3_pr,bpms_wm3_sw,bpms_wm3_pr,edgeassure_wm1_sw,edgeassure_wm1_pr,edgetask_wm2_sw,edgetask_wm2_pr',null,'DEPLOY',to_timestamp('22-08-22
-      10:52:08.000000000 AM','DD-MM-RR HH12:MI:SSXFF AM'),'prod',null)
-    - >-
-      Insert into DEPLOYMENT_DOCSYNC
-      (RELEASE_NAME,DOC_NAME,STATUS,TARGET_SERVER_ALIAS,FAILED_SERVER_ALIAS,ACTION,UPDATED_TIMESTAMP,ENVIRONMENT,ERROR_MESSAGE)
-      values
-      ('R2212','VfOrderFulfillmentCanonical.logging:OrderFulfillmentLoggingCanonical','NEW','b2b_wm2_sw,b2b_wm2_pr,b2b_wm5_sw,b2b_wm5_pr,edge_wm2_sw,edge_wm2_pr,edge_wm3_sw,edge_wm3_pr,edge_wm4_sw,edge_wm4_pr,edge_wm5_sw,edge_wm5_pr,bpms_wm2_sw,bpms_wm2_pr,edgeb2b_wm1_sw,edgeb2b_wm1_pr,edgeb2b_wm2_sw,edgeb2b_wm2_pr,edgeb2b_wm3_sw,edgeb2b_wm3_pr,edgeb2b_wm4_sw,edgeb2b_wm4_pr,edgesupplier_wm1_sw,edgesupplier_wm1_pr,edgenotification_wm3_sw,edgenotification_wm3_pr,bpms_wm3_sw,bpms_wm3_pr,edgeassure_wm1_sw,edgeassure_wm1_pr,edgetask_wm2_sw,edgetask_wm2_pr',null,'DEPLOY',to_timestamp('22-08-22
-      10:52:08.000000000 AM','DD-MM-RR HH12:MI:SSXFF AM'),'prod',null)
-    - COMMIT
+---
+ DeployerServer:
+   azagent-nonprod-01:
+     host: 10.196.217.115
+     port: 6071
+     user: EdgeDevopsUser
+     pwdhandle: deployer_pwdhandle
+   azagent-nonprod-02:
+     host: 10.196.217.115
+     port: 6071
+     user: EdgeDevopsUser
+     pwdhandle: deployer_pwdhandle
+ edge_wm1:
+   edge_wm1:
+      host: 10.196.220.54
+      port: 6091
+      user: EdgeDevopsUser
+      pwdhandle: tems2_pwdhandle
+      useSSL: false
+ edge_wm2:
+   edge_wm2:  
+      host: 10.196.220.54
+      port: 6092
+      user: EdgeDevopsUser
+      pwdhandle: tems2_pwdhandle
+      useSSL: false
+ edge_wm3:
+   edge_wm3:
+      host: 10.196.220.54
+      port: 6093
+      user: EdgeDevopsUser
+      pwdhandle: tems2_pwdhandle
+      useSSL: false
+ edge_wm4:
+   edge_wm4:
+      host: 10.196.220.54
+      port: 6094
+      user: EdgeDevopsUser
+      pwdhandle: tems2_pwdhandle
+      useSSL: false
+ edge_wm5:
+   edge_wm5:
+      host: 10.196.220.54
+      port: 6096
+      user: EdgeDevopsUser
+      pwdhandle: tems2_pwdhandle
+      useSSL: false
+ b2b_wm1:
+   b2b_wm1:
+      host: 10.196.220.54
+      port: 6161
+      user: EdgeDevopsUser
+      pwdhandle: tems2_pwdhandle
+      useSSL: false
+ b2b_wm2:
+   b2b_wm2:  
+      host: 10.196.220.54
+      port: 6162
+      user: EdgeDevopsUser
+      pwdhandle: tems2_pwdhandle
+      useSSL: false
+ b2b_wm3:
+   b2b_wm3:
+      host: 10.196.220.54
+      port: 6163
+      user: EdgeDevopsUser
+      pwdhandle: tems2_pwdhandle
+      useSSL: false
+ b2b_wm5:
+   b2b_wm5:
+      host: 10.196.220.54
+      port: 6165
+      user: EdgeDevopsUser
+      pwdhandle: tems2_pwdhandle
+      useSSL: false
+ edgesupplier_wm1:
+   edgesupplier_wm1:
+      host: 10.196.220.54
+      port: 6041
+      user: EdgeDevopsUser
+      pwdhandle: tems2_pwdhandle
+      useSSL: false
+ edgesupplier_wm2:
+   edgesupplier_wm2:
+      host: 10.196.220.54
+      port: 6042
+      user: EdgeDevopsUser
+      pwdhandle: tems2_pwdhandle
+      useSSL: false
+ edgesupplier_wm3:
+   edgesupplier_wm3:
+      host: 10.196.220.54
+      port: 6043
+      user: EdgeDevopsUser
+      pwdhandle: tems2_pwdhandle
+      useSSL: false
+ edgeassure_wm1:
+   edgeassure_wm1:
+      host: 10.196.220.54
+      port: 6031
+      user: EdgeDevopsUser
+      pwdhandle: tems2_pwdhandle
+      useSSL: false
+ edgeassure_wm2:
+   edgeassure_wm2:
+      host: 10.196.220.54
+      port: 6032
+      user: EdgeDevopsUser
+      pwdhandle: tems2_pwdhandle
+      useSSL: false
+ edgeassure_wm3:
+   edgeassure_wm3:
+      host: 10.196.220.54
+      port: 6033
+      user: EdgeDevopsUser
+      pwdhandle: tems2_pwdhandle
+      useSSL: false
+ edgeassure_wm4:
+   edgeassure_wm4:
+      host: 10.196.220.54
+      port: 6034
+      user: EdgeDevopsUser
+      pwdhandle: tems2_pwdhandle
+      useSSL: false
+ edgeb2b_wm1:
+   edgeb2b_wm1:
+      host: 10.196.220.54
+      port: 6051
+      user: EdgeDevopsUser
+      pwdhandle: tems2_pwdhandle
+      useSSL: false
+ edgeb2b_wm2:
+   edgeb2b_wm2:
+      host: 10.196.220.54
+      port: 6052
+      user: EdgeDevopsUser
+      pwdhandle: tems2_pwdhandle
+      useSSL: false
+ edgeb2b_wm3:
+   edgeb2b_wm3:
+      host: 10.196.220.54
+      port: 6053
+      user: EdgeDevopsUser
+      pwdhandle: tems2_pwdhandle
+      useSSL: false
+ edgeb2b_wm4:
+   edgeb2b_wm4:
+      host: 10.196.220.54
+      port: 6054
+      user: EdgeDevopsUser
+      pwdhandle: tems2_pwdhandle
+      useSSL: false
+ bpms_wm2:
+   bpms_wm2:
+      host: 10.196.220.54
+      port: 6223
+      user: EdgeDevopsUser
+      pwdhandle: tems2_pwdhandle
+      useSSL: false
+ bpms_wm3:
+   bpms_wm3:
+      host: 10.196.220.54
+      port: 6224
+      user: EdgeDevopsUser
+      pwdhandle: tems2_pwdhandle
+      useSSL: false
+ edgenotification_wm1:
+   edgenotification_wm1:
+      host: 10.196.220.54
+      port: 7071
+      user: EdgeDevopsUser
+      pwdhandle: tems2_pwdhandle
+      useSSL: false
+ edgenotification_wm3:
+   edgenotification_wm3:
+      host: 10.196.220.54
+      port: 7073
+      user: EdgeDevopsUser
+      pwdhandle: tems2_pwdhandle
+      useSSL: false
+ edgemessaging_wm1:
+   edgemessaging_wm1:
+      host: 10.196.220.54
+      port: 7061
+      user: EdgeDevopsUser
+      pwdhandle: tems2_pwdhandle
+      useSSL: false
+ edgemessaging_wm2:
+   edgemessaging_wm2:
+      host: 10.196.220.54
+      port: 7062
+      user: EdgeDevopsUser
+      pwdhandle: tems2_pwdhandle
+      useSSL: false
+ edgetask_wm1:
+   edgetask_wm1:
+      host: 10.196.212.90
+      port: 6021
+      user: EdgeDevopsUser
+      pwdhandle: tems2_pwdhandle
+      useSSL: false
+ edgetask_wm2:
+   edgetask_wm2:
+      host: 10.196.212.90
+      port: 6022
+      user: EdgeDevopsUser
+      pwdhandle: tems2_pwdhandle
+      useSSL: false
+

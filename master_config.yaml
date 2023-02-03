@@ -1,0 +1,20 @@
+otherConfigDB:
+  R2302:
+    2:
+      edgeconfig:
+        2_INSERT_ENV_PROPERTIES_CONFIG.sql:
+          ordersubtasks.maxquerycount: 50
+          scheduled.maxcount: 500
+          ordermessagequeue.maxquerycount: 500
+          orderresponses.maxquerycount: 50
+          orderupdates.maxquerycount: 50
+    20:
+      edgeconfig:
+        20_INSERT_ENV_PROPERTIES_CONFIG.sql:
+          GetServerNames: Env1,Env2,Env3,Env4,Env5,Env6
+          HostName1: 10.196.150.186
+          HostName2: 10.196.150.187
+          HostName3: 10.196.163.104
+          HostName4: 10.196.163.103
+          HostName5: 10.196.163.102
+          HostName6: 10.196.163.101
