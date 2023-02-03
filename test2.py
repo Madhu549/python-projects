@@ -41,7 +41,7 @@ def framing_username_and_password(username):
   else:
     return other_config_is['otherConfigIS']['isuserdefault']['username'], other_config_is['otherConfigIS']['isuserdefault']['password']
 
-'''import yaml
+import yaml
 #checking for the existence of target server alias in the is config yaml file
 def checking_target_server_alias(target_alias_name):
   try:
@@ -77,9 +77,7 @@ else:
   rollback_config_data.update(data)
   yaml_dumper(rollback_config_path, rollback_config_data, 'Exception occured while dumping data into rollback config file.')
 rollback_list =[]
-'''
-
-"""#Deleting the rollback config file after rollbacking the data successfully
+#Deleting the rollback config file after rollbacking the data successfully
 def delete_temp_files(path):
   if os.path.exists(path):
     os.remove(path)
@@ -92,7 +90,7 @@ try:
   print(os.system('pwd'))
   delete_temp_files(rollback_config_path)
 except:
-  print_error_and_exit('failed to delete rollback yaml file......')"""
+  print_error_and_exit('failed to delete rollback yaml file......')
 
 
 
@@ -100,21 +98,22 @@ except:
 #build_config = yaml_loader('C:\\Users\MADHU\Desktop\\build_config.yaml', 'exception')
 
 #test = yaml_loader('C:\\Users\MADHU\Desktop\\other_config.yaml', 'exception')
-build_config = yaml_loader('C:\\Users\MADHU\Desktop\\master_config.yaml', 'exception')
+#build_config = yaml_loader('C:\\Users\MADHU\Desktop\\master_config.yaml', 'exception')
+
+IsConfigDict = {}
+try:
+    with open('master_config.yaml','r') as f:
+        IsConfigDict = yaml.safe_load(f)
+    
+except:
+    traceback.print_exc()
+    sys.stderr.write("Could Not Open IS Config File\n")
+#build = yaml_loader(path, 'jhdhdb')
 #pprint(build_config)
 #print(test)
 #pprint(build_config)
 
 drop_dict = {}
 #pprint(test1)
-if 'db/ldr' in list(build_config.keys()):
-  for db_package in build_config['db/ldr']:
-    for key in db_package.keys():
-      print(db_package[key]['DROP_NO'])
-      print(key)
-      if db_package[key]['DROP_NO'] in drop_dict.keys():
-        for schema_name in db_package[key]['TARGET_SERVER_ALIAS']:
-          if schema_name not in drop_dict[db_package[key]['DROP_NO']]:
-            drop_dict[db_package[key]['DROP_NO']][schema_name] = {}
 
-pprint(build_config)
+pprint(IsConfigDict)
