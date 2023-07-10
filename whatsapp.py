@@ -1,3 +1,8 @@
-from pywhatkit import sendwhatmessage
-number = '+918497921999'
-sendwhatmessage(number, 'hello python test', 11, 41)
+from pywhatkit import sendwhatmsg_instantly,sendwhatmsg
+
+
+number = '+918300304198'
+
+sendwhatmsg(number, 'sent from python script', 13, 32)
+
+#fnjfjccnjk

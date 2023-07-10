@@ -1,0 +1,24 @@
+otherConfigIS:
+  isuser:
+    - 113:
+      username: EdgeFABHUBUser
+      password: EdgeFABHUBUser
+    - 116:
+      username: EdgeFABHUBUser
+      password: EdgeFABHUBUser
+  isuserdefault:
+    username: med_llu_vodafone_user
+    password: Pa55w0rd
+  is:
+    username: med_llu_vodafone_user
+    password: Pa55w0rd
+otherConfigDocSync:
+  R2305:
+    - Insert into DEPLOYMENT_DOCSYNC (RELEASE_NAME,DOC_NAME,STATUS,TARGET_SERVER_ALIAS,FAILED_SERVER_ALIAS,ACTION,UPDATED_TIMESTAMP,ENVIRONMENT,ERROR_MESSAGE) values ('R2305','VfEdgeOrderLoggingCanonical.logging:EdgeOrderTransaction','NEW','b2b_wm2,bpms_wm2,edge_wm2,edge_wm4,edgeb2b_wm3,edgeb2b_wm4,edgetask_wm2',null,'DEPLOY',to_timestamp('22-08-22 10:52:08.000000000 AM','DD-MM-RR HH12:MI:SSXFF AM'),'cob2',null)
+    - COMMIT
+otherConfigDB:
+  R2306:
+    6:
+      edgeprocess:
+        6_INSERT_ENV_PROPERTIES_CONFIG.sql:
+          Servername: /opt/SP/edge/comdata/wmedgtsk14/SupplierFootprintData

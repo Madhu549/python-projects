@@ -33,8 +33,8 @@ def generate_log_files(log_file_path,for_deployment,devops_shared_path,release_n
             with open(deployment_failed_path,'w+') as f:
                 f.write(failed_artifacts)
         elif(for_deployment.upper() == 'ROLLBACK' or for_deployment.upper() == 'OVERALLROLLBACK'):
-            rollback_completed_path = f'{devops_shared_path}/globalVariableLogs/{release_name}_completed_rollback_global_variables.log'
-            rollback_failed_path = f'{devops_shared_path}/globalVariableLogs/{release_name}_failed_rollback_global_variables.log'
+            rollback_completed_path = f'{devops_shared_path}/globalVariableLogs/{release_name}_completed_rollback_acl.log'
+            rollback_failed_path = f'{devops_shared_path}/globalVariableLogs/{release_name}_failed_rollback_acl.log'
 
             # write to rollback completed artifacts file
             with open(rollback_completed_path,'w+') as f:

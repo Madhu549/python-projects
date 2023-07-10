@@ -1,0 +1,26 @@
+otherConfigDB:
+  R23028:
+    10:
+      edge_config:
+        6_INSERT_ENV_PROPERTIES_CONFIG.sql:
+          Servername: /opt/SP/edge/comdata/wmedgtsk14/SupplierFootprintData
+otherConfigDocSync:
+  R23028:
+  - '- Insert into DEPLOYMENT_DOCSYNC (RELEASE_NAME,DOC_NAME,STATUS,TARGET_SERVER_ALIAS,FAILED_SERVER_ALIAS,ACTION,UPDATED_TIMESTAMP,ENVIRONMENT,ERROR_MESSAGE)
+    values (R23028,VfEdgeOrderLoggingCanonical.logging:EdgeOrderTransaction,NEW, b2b_wm2_pr,
+    bpms_wm2_pr, edge_wm2_pr, edge_wm4_pr, edgeb2b_wm3_pr, edgeb2b_wm4_pr, edgetask_wm2_pr,
+    b2b_wm2_sw, bpms_wm2_sw, edge_wm2_sw, edge_wm4_sw, edgeb2b_wm3_sw, edgeb2b_wm4_sw,
+    edgetask_wm2_sw, null, DEPLOY, to_timestamp(22-08-22 10:52:08.000000000 AM, DD-MM-RR
+    HH12:MI:SSXFF AM),cob1, null)'
+  - COMMIT
+otherConfigIS:
+  isuser:
+  - 113: null
+    password: EdgeFABHUBUser
+    username: EdgeFABHUBUser
+  - 116: null
+    password: EdgeFABHUBUser
+    username: EdgeFABHUBUser
+  isuserdefault:
+    password: pass
+    username: Madhu

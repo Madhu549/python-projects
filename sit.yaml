@@ -1,0 +1,53 @@
+"edge": 
+
+    alias: "wmsit3edge"
+
+    instances: [wm1, wm2, wm3, wm4, wm5]
+
+"b2b": 
+
+    alias: "wmsit3b2b"
+
+    instances: [wm1, wm2, wm3, wm5]
+
+"edgeb2b": 
+
+    alias: "wmsit3edgeb2b"
+
+    instances: [wm1, wm2, wm3, wm4]
+
+"edgeassure": 
+
+    alias: "wmsit3edgeassure"
+
+    instances: [wm1, wm2, wm3, wm4]
+
+"edgesupplier": 
+
+    alias: "wmsit3edgesupplier"
+
+    instances: [wm1, wm2, wm3]
+
+"edgenotification": 
+
+    alias: "wmsit3edgenotification"
+
+    instances: [wm1, wm3]
+
+"bpms": 
+
+    alias: "wmsit3bpms"
+
+    instances: [wm2, wm3]
+
+"edgemessaging": 
+
+    alias: "wmsit3edgemsg"
+
+    instances: [wm1]
+
+"edgetask": 
+
+    alias: "wmsit3edgetask"
+
+    instances: [wm1, wm2]

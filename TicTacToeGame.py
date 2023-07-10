@@ -40,7 +40,7 @@ def win_check(board_list, player):
                        board_list[6] == board_list[7] == board_list[8] == player) or (
                        board_list[0] == board_list[3] == board_list[6] == player) or (
                        board_list[1] == board_list[4] == board_list[7] == player) or (
-                       board_list[2] == board_list[5] == board_list[9] == player) or (
+                       board_list[2] == board_list[5] == board_list[8] == player) or (
                        board_list[0] == board_list[4] == board_list[8] == player) or (
                        board_list[2] == board_list[4] == board_list[6] == player)
 

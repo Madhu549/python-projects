@@ -1,0 +1,420 @@
+{
+    "azagent-nonprod-01": {
+        "host": "10.196.217.115",
+        "port": 6071,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "deployer_pwdhandle",
+        "useSSL": false
+    },
+    "azagent-nonprod-02": {
+        "host": "10.196.217.115",
+        "port": 6071,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "deployer_pwdhandle",
+        "useSSL": false
+    },
+    "azagent-nonprod-03": {
+        "host": "10.196.217.115",
+        "port": 6071,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "deployer_pwdhandle",
+        "useSSL": false
+    },
+    "azagent-nonprod-04": {
+        "host": "10.196.217.115",
+        "port": 6071,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "deployer_pwdhandle",
+        "useSSL": false
+    }
+}{
+    "edge_wm1_pr": {
+        "host": "10.196.208.193",
+        "port": 6091,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    },
+    "edge_wm1_sw": {
+        "host": "10.196.216.127",
+        "port": 6091,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    }
+}{
+    "edge_wm2_pr": {
+        "host": "10.196.208.193",
+        "port": 6092,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    },
+    "edge_wm2_sw": {
+        "host": "10.196.216.127",
+        "port": 6092,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    }
+}{
+    "edge_wm3_pr": {
+        "host": "10.196.208.193",
+        "port": 6093,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    },
+    "edge_wm3_sw": {
+        "host": "10.196.216.127",
+        "port": 6093,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    }
+}{
+    "edge_wm4_pr": {
+        "host": "10.196.208.193",
+        "port": 6094,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    },
+    "edge_wm4_sw": {
+        "host": "10.196.216.127",
+        "port": 6094,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    }
+}{
+    "edge_wm5_pr": {
+        "host": "10.196.208.193",
+        "port": 6095,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    },
+    "edge_wm5_sw": {
+        "host": "10.196.216.127",
+        "port": 6095,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    }
+}{
+    "b2b_wm2_pr": {
+        "host": "10.196.208.194",
+        "port": 6162,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    },
+    "b2b_wm2_sw": {
+        "host": "10.196.216.128",
+        "port": 6162,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    }
+}{
+    "b2b_wm3_pr": {
+        "host": "10.196.208.194",
+        "port": 6163,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    },
+    "b2b_wm3_sw": {
+        "host": "10.196.216.128",
+        "port": 6163,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    }
+}{
+    "b2b_wm5_pr": {
+        "host": "10.196.208.194",
+        "port": 6165,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    },
+    "b2b_wm5_sw": {
+        "host": "10.196.216.128",
+        "port": 6165,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    }
+}{
+    "edgesupplier_wm1_pr": {
+        "host": "10.196.209.48",
+        "port": 6041,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    },
+    "edgesupplier_wm1_sw": {
+        "host": "10.196.217.25",
+        "port": 6041,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    }
+}{
+    "edgesupplier_wm2_pr": {
+        "host": "10.196.209.48",
+        "port": 6042,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    },
+    "edgesupplier_wm2_sw": {
+        "host": "10.196.217.25",
+        "port": 6042,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    }
+}{
+    "edgeassure_wm1_pr": {
+        "host": "10.196.209.49",
+        "port": 6031,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    },
+    "edgeassure_wm1_sw": {
+        "host": "10.196.217.26",
+        "port": 6031,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    }
+}{
+    "edgeassure_wm2_pr": {
+        "host": "10.196.209.49",
+        "port": 6032,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    },
+    "edgeassure_wm2_sw": {
+        "host": "10.196.217.26",
+        "port": 6032,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    }
+}{
+    "edgeassure_wm3_pr": {
+        "host": "10.196.209.49",
+        "port": 6033,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    },
+    "edgeassure_wm3_sw": {
+        "host": "10.196.217.26",
+        "port": 6033,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    }
+}{
+    "edgeassure_wm4_pr": {
+        "host": "10.196.209.49",
+        "port": 6034,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    },
+    "edgeassure_wm4_sw": {
+        "host": "10.196.217.26",
+        "port": 6034,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    }
+}{
+    "edgeb2b_wm1_pr": {
+        "host": "10.196.212.205",
+        "port": 6051,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    },
+    "edgeb2b_wm1_sw": {
+        "host": "10.196.220.150",
+        "port": 6051,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    }
+}{
+    "edgeb2b_wm2_pr": {
+        "host": "10.196.212.205",
+        "port": 6052,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    },
+    "edgeb2b_wm2_sw": {
+        "host": "10.196.220.150",
+        "port": 6052,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    }
+}{
+    "edgeb2b_wm3_pr": {
+        "host": "10.196.212.205",
+        "port": 6053,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    },
+    "edgeb2b_wm3_sw": {
+        "host": "10.196.220.150",
+        "port": 6053,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    }
+}{
+    "edgeb2b_wm4_pr": {
+        "host": "10.196.212.205",
+        "port": 6054,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    },
+    "edgeb2b_wm4_sw": {
+        "host": "10.196.220.150",
+        "port": 6054,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    }
+}{
+    "edgetask_wm2_pr": {
+        "host": "10.196.212.85",
+        "port": 6022,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    },
+    "edgetask_wm2_sw": {
+        "host": "10.196.220.228",
+        "port": 6022,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    }
+}{
+    "bpms_wm2_pr": {
+        "host": "10.196.208.196",
+        "port": 6223,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": true
+    },
+    "bpms_wm2_sw": {
+        "host": "10.196.216.130",
+        "port": 6223,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": true
+    }
+}{
+    "bpms_wm3_pr": {
+        "host": "10.196.208.196",
+        "port": 6224,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": true
+    },
+    "bpms_wm3_sw": {
+        "host": "10.196.216.130",
+        "port": 6224,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": true
+    }
+}{
+    "edgenotification_wm1_pr": {
+        "host": "10.196.212.209",
+        "port": 6071,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    },
+    "edgenotification_wm1_sw": {
+        "host": "10.196.220.154",
+        "port": 6071,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    }
+}{
+    "edgenotification_wm3_pr": {
+        "host": "10.196.212.209",
+        "port": 6073,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    },
+    "edgenotification_wm3_sw": {
+        "host": "10.196.220.154",
+        "port": 6073,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    }
+}{
+    "edgemessaging_wm1_pr": {
+        "host": "10.196.212.206",
+        "port": 6061,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    },
+    "edgemessaging_wm1_sw": {
+        "host": "10.196.220.151",
+        "port": 6061,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    }
+}{
+    "edgemessaging_wm2_pr": {
+        "host": "10.196.212.206",
+        "port": 6062,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    },
+    "edgemessaging_wm2_sw": {
+        "host": "10.196.220.151",
+        "port": 6062,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    }
+}{
+    "edge_mws_wm1_pr": {
+        "host": "10.196.208.197",
+        "port": 6090,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    },
+    "edge_mws_wm1_sw": {
+        "host": "10.196.216.131",
+        "port": 6090,
+        "user": "EdgeDevopsUser",
+        "pwdhandle": "cob1_pwdhandle",
+        "useSSL": false
+    }
+}{"azagent-nonprod-01": {"host": "10.196.217.115", "port": 6071, "user": "EdgeDevopsUser", "pwdhandle": "deployer_pwdhandle", "useSSL": false}, "azagent-nonprod-02": {"host": "10.196.217.115", "port": 6071, "user": "EdgeDevopsUser", "pwdhandle": "deployer_pwdhandle", "useSSL": false}, "azagent-nonprod-03": {"host": "10.196.217.115", "port": 6071, "user": "EdgeDevopsUser", "pwdhandle": "deployer_pwdhandle", "useSSL": false}, "azagent-nonprod-04": {"host": "10.196.217.115", "port": 6071, "user": "EdgeDevopsUser", "pwdhandle": "deployer_pwdhandle", "useSSL": false}}{"edge_wm1_pr": {"host": "10.196.208.193", "port": 6091, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}, "edge_wm1_sw": {"host": "10.196.216.127", "port": 6091, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}}{"edge_wm2_pr": {"host": "10.196.208.193", "port": 6092, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}, "edge_wm2_sw": {"host": "10.196.216.127", "port": 6092, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}}{"edge_wm3_pr": {"host": "10.196.208.193", "port": 6093, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}, "edge_wm3_sw": {"host": "10.196.216.127", "port": 6093, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}}{"edge_wm4_pr": {"host": "10.196.208.193", "port": 6094, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}, "edge_wm4_sw": {"host": "10.196.216.127", "port": 6094, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}}{"edge_wm5_pr": {"host": "10.196.208.193", "port": 6095, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}, "edge_wm5_sw": {"host": "10.196.216.127", "port": 6095, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}}{"b2b_wm2_pr": {"host": "10.196.208.194", "port": 6162, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}, "b2b_wm2_sw": {"host": "10.196.216.128", "port": 6162, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}}{"b2b_wm3_pr": {"host": "10.196.208.194", "port": 6163, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}, "b2b_wm3_sw": {"host": "10.196.216.128", "port": 6163, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}}{"b2b_wm5_pr": {"host": "10.196.208.194", "port": 6165, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}, "b2b_wm5_sw": {"host": "10.196.216.128", "port": 6165, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}}{"edgesupplier_wm1_pr": {"host": "10.196.209.48", "port": 6041, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}, "edgesupplier_wm1_sw": {"host": "10.196.217.25", "port": 6041, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}}{"edgesupplier_wm2_pr": {"host": "10.196.209.48", "port": 6042, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}, "edgesupplier_wm2_sw": {"host": "10.196.217.25", "port": 6042, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}}{"edgeassure_wm1_pr": {"host": "10.196.209.49", "port": 6031, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}, "edgeassure_wm1_sw": {"host": "10.196.217.26", "port": 6031, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}}{"edgeassure_wm2_pr": {"host": "10.196.209.49", "port": 6032, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}, "edgeassure_wm2_sw": {"host": "10.196.217.26", "port": 6032, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}}{"edgeassure_wm3_pr": {"host": "10.196.209.49", "port": 6033, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}, "edgeassure_wm3_sw": {"host": "10.196.217.26", "port": 6033, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}}{"edgeassure_wm4_pr": {"host": "10.196.209.49", "port": 6034, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}, "edgeassure_wm4_sw": {"host": "10.196.217.26", "port": 6034, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}}{"edgeb2b_wm1_pr": {"host": "10.196.212.205", "port": 6051, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}, "edgeb2b_wm1_sw": {"host": "10.196.220.150", "port": 6051, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}}{"edgeb2b_wm2_pr": {"host": "10.196.212.205", "port": 6052, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}, "edgeb2b_wm2_sw": {"host": "10.196.220.150", "port": 6052, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}}{"edgeb2b_wm3_pr": {"host": "10.196.212.205", "port": 6053, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}, "edgeb2b_wm3_sw": {"host": "10.196.220.150", "port": 6053, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}}{"edgeb2b_wm4_pr": {"host": "10.196.212.205", "port": 6054, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}, "edgeb2b_wm4_sw": {"host": "10.196.220.150", "port": 6054, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}}{"edgetask_wm2_pr": {"host": "10.196.212.85", "port": 6022, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}, "edgetask_wm2_sw": {"host": "10.196.220.228", "port": 6022, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}}{"bpms_wm2_pr": {"host": "10.196.208.196", "port": 6223, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": true}, "bpms_wm2_sw": {"host": "10.196.216.130", "port": 6223, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": true}}{"bpms_wm3_pr": {"host": "10.196.208.196", "port": 6224, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": true}, "bpms_wm3_sw": {"host": "10.196.216.130", "port": 6224, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": true}}{"edgenotification_wm1_pr": {"host": "10.196.212.209", "port": 6071, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}, "edgenotification_wm1_sw": {"host": "10.196.220.154", "port": 6071, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}}{"edgenotification_wm3_pr": {"host": "10.196.212.209", "port": 6073, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}, "edgenotification_wm3_sw": {"host": "10.196.220.154", "port": 6073, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}}{"edgemessaging_wm1_pr": {"host": "10.196.212.206", "port": 6061, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}, "edgemessaging_wm1_sw": {"host": "10.196.220.151", "port": 6061, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}}{"edgemessaging_wm2_pr": {"host": "10.196.212.206", "port": 6062, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}, "edgemessaging_wm2_sw": {"host": "10.196.220.151", "port": 6062, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}}{"edge_mws_wm1_pr": {"host": "10.196.208.197", "port": 6090, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}, "edge_mws_wm1_sw": {"host": "10.196.216.131", "port": 6090, "user": "EdgeDevopsUser", "pwdhandle": "cob1_pwdhandle", "useSSL": false}}

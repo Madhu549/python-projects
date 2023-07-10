@@ -3,7 +3,7 @@ import traceback
 import sys, os, pprint
 
 #taking system arguments
-file_path = 'C:\\Users\MADHU\Desktop\python Code\Python_Coding\other_config.yml'
+file_path = 'C:\\Users\MADHU\Desktop\python\Python_Coding\\test10.yaml'
 
 #and printing the traceback
 #Print error messages

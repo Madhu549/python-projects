@@ -1,0 +1,17 @@
+a.py:
+  drop: 1
+  build_required: 'true'
+  version: 1.0
+  dependent_python_files: 'c.py'
+  modules_required: 'pandas, numpy'
+  target_server_alias: 'edge_wm4'
+  new_artifact: 'true'
+
+b.py:
+  drop: 1
+  build_required: 'true'
+  version: 1.0
+  dependent_python_files: 'c.py'
+  modules_required: ''
+  target_server_alias: 'edge_wm4'
+  new_artifact: 'true'

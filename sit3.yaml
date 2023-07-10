@@ -1,0 +1,293 @@
+{
+    "DeployerServer": {
+        "azagent-nonprod-01": {
+            "host": "10.196.217.115",
+            "port": 6071,
+            "user": "EdgeDevopsUser",
+            "pwdhandle": "deployer_pwdhandle",
+            "useSSL": false
+        },
+        "azagent-nonprod-02": {
+            "host": "10.196.217.115",
+            "port": 6071,
+            "user": "EdgeDevopsUser",
+            "pwdhandle": "deployer_pwdhandle",
+            "useSSL": false
+        },
+        "azagent-nonprod-03": {
+            "host": "10.196.217.115",
+            "port": 6071,
+            "user": "EdgeDevopsUser",
+            "pwdhandle": "deployer_pwdhandle",
+            "useSSL": false
+        },
+        "azagent-nonprod-04": {
+            "host": "10.196.217.115",
+            "port": 6071,
+            "user": "EdgeDevopsUser",
+            "pwdhandle": "deployer_pwdhandle",
+            "useSSL": false
+        }
+    },
+    "edge_wm1": {
+        "edge_wm1": {
+            "host": "10.196.220.57",
+            "port": 8221,
+            "user": "EdgeDevopsUser",
+            "pwdhandle": "sit3_pwdhandle",
+            "useSSL": false
+        }
+    },
+    "edge_wm2": {
+        "edge_wm2": {
+            "host": "10.196.220.57",
+            "port": 8222,
+            "user": "EdgeDevopsUser",
+            "pwdhandle": "sit3_pwdhandle",
+            "useSSL": false
+        }
+    },
+    "edge_wm3": {
+        "edge_wm3": {
+            "host": "10.196.220.57",
+            "port": 6093,
+            "user": "EdgeDevopsUser",
+            "pwdhandle": "sit3_pwdhandle",
+            "useSSL": false
+        }
+    },
+    "edge_wm4": {
+        "edge_wm4": {
+            "host": "10.196.220.57",
+            "port": 6094,
+            "user": "EdgeDevopsUser",
+            "pwdhandle": "sit3_pwdhandle",
+            "useSSL": false
+        }
+    },
+    "edge_wm5": {
+        "edge_wm5": {
+            "host": "10.196.220.57",
+            "port": 6095,
+            "user": "EdgeDevopsUser",
+            "pwdhandle": "sit3_pwdhandle",
+            "useSSL": false
+        }
+    },
+    "b2b_wm1": {
+        "b2b_wm1": {
+            "host": "10.196.220.58",
+            "port": 8241,
+            "user": "EdgeDevopsUser",
+            "pwdhandle": "sit3_pwdhandle",
+            "useSSL": false
+        }
+    },
+    "b2b_wm2": {
+        "b2b_wm2": {
+            "host": "10.196.220.58",
+            "port": 8242,
+            "user": "EdgeDevopsUser",
+            "pwdhandle": "sit3_pwdhandle",
+            "useSSL": false
+        }
+    },
+    "b2b_wm3": {
+        "b2b_wm3": {
+            "host": "10.196.220.58",
+            "port": 8243,
+            "user": "EdgeDevopsUser",
+            "pwdhandle": "sit3_pwdhandle",
+            "useSSL": false
+        }
+    },
+    "b2b_wm5": {
+        "b2b_wm5": {
+            "host": "10.196.220.58",
+            "port": 6165,
+            "user": "EdgeDevopsUser",
+            "pwdhandle": "sit3_pwdhandle",
+            "useSSL": false
+        }
+    },
+    "edgesupplier_wm1": {
+        "edgesupplier_wm1": {
+            "host": "10.196.220.58",
+            "port": 6131,
+            "user": "EdgeDevopsUser",
+            "pwdhandle": "sit3_pwdhandle",
+            "useSSL": false
+        }
+    },
+    "edgesupplier_wm2": {
+        "edgesupplier_wm2": {
+            "host": "10.196.220.58",
+            "port": 6132,
+            "user": "EdgeDevopsUser",
+            "pwdhandle": "sit3_pwdhandle",
+            "useSSL": false
+        }
+    },
+    "edgesupplier_wm3": {
+        "edgesupplier_wm3": {
+            "host": "10.196.220.58",
+            "port": 6133,
+            "user": "EdgeDevopsUser",
+            "pwdhandle": "sit3_pwdhandle",
+            "useSSL": false
+        }
+    },
+    "edgeassure_wm1": {
+        "edgeassure_wm1": {
+            "host": "10.196.220.57",
+            "port": 6031,
+            "user": "EdgeDevopsUser",
+            "pwdhandle": "sit3_pwdhandle",
+            "useSSL": false
+        }
+    },
+    "edgeassure_wm2": {
+        "edgeassure_wm2": {
+            "host": "10.196.220.57",
+            "port": 6032,
+            "user": "EdgeDevopsUser",
+            "pwdhandle": "sit3_pwdhandle",
+            "useSSL": false
+        }
+    },
+    "edgeassure_wm3": {
+        "edgeassure_wm3": {
+            "host": "10.196.220.57",
+            "port": 6033,
+            "user": "EdgeDevopsUser",
+            "pwdhandle": "sit3_pwdhandle",
+            "useSSL": false
+        }
+    },
+    "edgeassure_wm4": {
+        "edgeassure_wm4": {
+            "host": "10.196.220.57",
+            "port": 6034,
+            "user": "EdgeDevopsUser",
+            "pwdhandle": "sit3_pwdhandle",
+            "useSSL": false
+        }
+    },
+    "edgeb2b_wm1": {
+        "edgeb2b_wm1": {
+            "host": "10.196.220.58",
+            "port": 6051,
+            "user": "EdgeDevopsUser",
+            "pwdhandle": "sit3_pwdhandle",
+            "useSSL": false
+        }
+    },
+    "edgeb2b_wm2": {
+        "edgeb2b_wm2": {
+            "host": "10.196.220.58",
+            "port": 6052,
+            "user": "EdgeDevopsUser",
+            "pwdhandle": "sit3_pwdhandle",
+            "useSSL": false
+        }
+    },
+    "edgeb2b_wm3": {
+        "edgeb2b_wm3": {
+            "host": "10.196.220.58",
+            "port": 6053,
+            "user": "EdgeDevopsUser",
+            "pwdhandle": "sit3_pwdhandle",
+            "useSSL": false
+        }
+    },
+    "edgeb2b_wm4": {
+        "edgeb2b_wm4": {
+            "host": "10.196.220.58",
+            "port": 6054,
+            "user": "EdgeDevopsUser",
+            "pwdhandle": "sit3_pwdhandle",
+            "useSSL": false
+        }
+    },
+    "bpms_wm2": {
+        "bpms_wm2": {
+            "host": "10.196.220.61",
+            "port": 8162,
+            "user": "EdgeDevopsUser",
+            "pwdhandle": "sit3_pwdhandle",
+            "useSSL": false
+        }
+    },
+    "bpms_wm3": {
+        "bpms_wm3": {
+            "host": "10.196.220.61",
+            "port": 8163,
+            "user": "EdgeDevopsUser",
+            "pwdhandle": "sit3_pwdhandle",
+            "useSSL": false
+        }
+    },
+    "edgenotification_wm1": {
+        "edgenotification_wm1": {
+            "host": "10.196.220.57",
+            "port": 6071,
+            "user": "EdgeDevopsUser",
+            "pwdhandle": "sit3_pwdhandle",
+            "useSSL": false
+        }
+    },
+    "edgenotification_wm3": {
+        "edgenotification_wm3": {
+            "host": "10.196.220.57",
+            "port": 6073,
+            "user": "EdgeDevopsUser",
+            "pwdhandle": "sit3_pwdhandle",
+            "useSSL": false
+        }
+    },
+    "edgemessaging_wm1": {
+        "edgemessaging_wm1": {
+            "host": "10.196.220.57",
+            "port": 6061,
+            "user": "EdgeDevopsUser",
+            "pwdhandle": "sit3_pwdhandle",
+            "useSSL": false
+        }
+    },
+    "edgemessaging_wm2": {
+        "edgemessaging_wm2": {
+            "host": "10.196.220.57",
+            "port": 6062,
+            "user": "EdgeDevopsUser",
+            "pwdhandle": "sit3_pwdhandle",
+            "useSSL": false
+        }
+    },
+    "edgetask_wm1": {
+        "edgetask_wm1": {
+            "host": "10.196.220.233",
+            "port": 6021,
+            "user": "EdgeDevopsUser",
+            "pwdhandle": "sit3_pwdhandle",
+            "useSSL": false
+        }
+    },
+    "edgetask_wm2": {
+        "edgetask_wm2": {
+            "host": "10.196.220.233",
+            "port": 6022,
+            "user": "EdgeDevopsUser",
+            "pwdhandle": "sit3_pwdhandle",
+            "useSSL": false
+        }
+    },
+    "edge_mws": {
+        "edge_mws_wm1": {
+            "host": "10.196.220.60",
+            "port": 6090,
+            "user": "EdgeDevopsUser",
+            "pwdhandle": "sit3_pwdhandle",
+            "useSSL": false
+        }
+    }
+}

@@ -1,0 +1,22 @@
+otherConfigDB:
+  R2303:
+    25:
+      edgeconfig:
+        25_INSERT_ENV_PROP_CONFIG.sql:
+          mwh.ClientSecret: 0D748767005947E2aA49451Accc77811
+          mwh.UserID: 24261ClarkeZ
+          mwh.AppID: VMB_STG_2426
+          url: https://gw-vip-n.msvmb.virginmedia.com/exp-wsquote/v1/stg/api/firmquote
+
+otherConfigIS:
+  isuser:
+    - 108:
+      username: EdgeWMUser
+      password: EdgeWMUser
+  isuserdefault:
+    username: med_llu_vodafone_user
+    password: Pa55w0rd
+otherConfigDocSync:
+  R2303:
+    - Insert into DEPLOYMENT_DOCSYNC (RELEASE_NAME,DOC_NAME,STATUS,TARGET_SERVER_ALIAS,FAILED_SERVER_ALIAS,ACTION,UPDATED_TIMESTAMP,ENVIRONMENT,ERROR_MESSAGE) values ('R2303','VfProductAvailabilityLoggingUtilityCanonical.doc:ProductAvailabilityTransaction','NEW','edgeb2b_wm2',null,'DEPLOY',to_timestamp('22-08-22 10:52:08.000000000 AM','DD-MM-RR HH12:MI:SSXFF AM'),'cob2',null)
+    - COMMIT

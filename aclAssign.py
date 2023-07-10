@@ -1,5 +1,5 @@
 #importing required modules
-import yaml, os, sys, subprocess, shlex, traceback, pprint
+import yaml, os, sys, subprocess, shlex, traceback,  
 from os import path
 
 #taking system argumet inputs
